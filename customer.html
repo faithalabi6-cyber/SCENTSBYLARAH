@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCENTSBYLARAH | Customer Dashboard</title>
+</head>
+<body>
+<!-- Brand name -->
+<h1>SCENTSBYLARAH</h1>
+
+<!-- Customer dashboard heading -->
+<h2>My Orders</h2>
+
+<!-- Welcome message -->
+<p>Welcome! View your orders and check your delivery status here.</p>
+<!-- Order tracking section -->
+<section id="track-order">
+    <h2>Track Your Order</h2>
+    <p>Enter your order details to check your order and delivery status.</p>
+
+    <form>
+        <label for="order-number">Order Number:</label>
+        <input type="text" id="order-number" name="order-number" required>
+
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <br><br>
+
+        <button type="submit">Track Order</button>
+    </form>
+</section>
+<!-- Order details section -->
+<section id="order-details">
+    <h2>Order Details</h2>
+
+    <!-- Example order -->
+    <div>
+        <h3>Order Number: SBL-1001</h3>
+        <p>Product: Hayaati</p>
+        <p>Quantity: 1</p>
+        <p>Total: ₦25,000</p>
+        <p>Order Status: Processing</p>
+        <p>Delivery Status: Awaiting Dispatch</p>
+    </div>
+</section>
+<!-- Previous orders section -->
+<section id="previous-orders">
+    <h2>Previous Orders</h2>
+
+    <!-- First previous order -->
+    <div>
+        <h3>Order Number: SBL-1001</h3>
+        <p>Product: Hayaati</p>
+        <p>Total: ₦25,000</p>
+        <p>Status: Delivered</p>
+    </div>
+
+    <!-- Second previous order -->
+    <div>
+        <h3>Order Number: SBL-1002</h3>
+        <p>Product: Club de Nuit</p>
+        <p>Total: ₦60,000</p>
+        <p>Status: Processing</p>
+    </div>
+</section>
+<!-- Website footer -->
+<footer>
+    <p>&copy; 2026 SCENTSBYLARAH. All rights reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,109 @@
+#complete a purchase
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCENTSBYLARAH | Checkout</title>
+</head>
+<body>
+    <!-- Brand name -->
+    <h1>SCENTSBYLARAH</h1>
+
+    <!-- Checkout heading -->
+    <h2>Checkout</h2>
+
+    <p>Complete your details below to place your order.</p>
+        <!-- Navigation menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Continue Shopping</a>
+        <a href="cart.html">My Cart</a>
+    </nav>
+        <!-- Customer information section -->
+    <section id="customer-information">
+        <h2>Customer Information</h2>
+
+        <form>
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </form>
+    </section>
+        <!-- Delivery information section -->
+    <section id="delivery-information">
+        <h2>Delivery Information</h2>
+
+        <form>
+            <label for="address">Street Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <br><br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+
+            <br><br>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+        </form>
+    </section>
+        <!-- Order summary section -->
+    <section id="order-summary">
+        <h2>Order Summary</h2>
+
+        <div>
+            <h3>Hayaati</h3>
+            <p>Quantity: 1</p>
+            <p>Price: ₦25,000</p>
+        </div>
+
+        <div>
+            <h3>Al Fursan</h3>
+            <p>Quantity: 1</p>
+            <p>Price: ₦30,000</p>
+        </div>
+
+        <hr>
+
+        <p>Subtotal: ₦55,000</p>
+        <p>Delivery Fee: Calculated at Checkout</p>
+
+        <h3>Total: Calculated at Checkout</h3>
+    </section>
+        <!-- Payment method section -->
+    <section id="payment-method">
+        <h2>Payment Method</h2>
+
+        <label for="payment">Choose your payment method:</label>
+
+        <select id="payment" name="payment" required>
+            <option value="">-- Select Payment Method --</option>
+            <option value="bank-transfer">Bank Transfer</option>
+            <option value="pay-on-delivery">Pay on Delivery</option>
+        </select>
+    </section>
+        <!-- Place order section -->
+    <section id="place-order">
+        <h2>Complete Your Order</h2>
+
+        <p>Please review your details before placing your order.</p>
+
+        <button type="submit">Place Order</button>
+    </section>
+        <!-- Website footer -->
+    <footer>
+        <p>&copy; 2026 SCENTSBYLARAH. All rights reserved.</p>
+    </footer>
+</body>
+</html>
